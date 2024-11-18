@@ -1,0 +1,44 @@
+.product-container {
+    margin: 20px auto;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-container input, .product-container select {
+    width: calc(60% - 10px);
+    margin-right: 10px;
+  }
+  
+  .product-container button {
+    width: calc(30% - 10px);
+  }
+  
+  .product-table {
+    margin-top: 20px;
+  }
+  
+  .product-table table {
+    width: 100%;
+  }
+  
+  .product-table th {
+    text-align: center;
+  }
+  
+  .product-table td {
+    text-align: center;
+  }
+  
+  .pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pagination button {
+    margin: 0 5px;
+  }
+  

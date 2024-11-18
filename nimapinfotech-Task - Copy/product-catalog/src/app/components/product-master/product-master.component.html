@@ -1,0 +1,14 @@
+<h2>Product Master</h2>
+<div>
+  <input [(ngModel)]="newProductName" placeholder="New Product Name" />
+  
+  <!-- Category dropdown with ngModel binding to selectedCategoryId -->
+  <select [(ngModel)]="selectedCategoryId">
+    <option value="" disabled>Select a Category</option> <!-- Default option -->
+    <option *ngFor="let category of categories" [value]="category.id">
+      {{ category.name }}
+    </option>
+  </select>
+  
+  <button (click)="addProduct()">Add Product</button>
+</div>
